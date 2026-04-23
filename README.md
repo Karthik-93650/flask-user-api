@@ -16,5 +16,5 @@ Simple REST API using Flask to perform CRUD operations on users (in-memory).
 
 ## How to Run
 ```bash
-pip install flask requests
+pip install -r requirements.txt
 python app.py
