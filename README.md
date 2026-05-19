@@ -7,12 +7,15 @@ Simple REST API using Flask to perform CRUD operations on users (in-memory).
 - Python
 - Flask
 
+## Live Demo
+🚀 https://flask-user-api-aby6.onrender.com
+
 ## Endpoints
-- GET /users
-- GET /users/<id>
-- POST /users
-- PUT /users/<id>
-- DELETE /users/<id>
+GET    /users          - Get all users
+GET    /users/<id>     - Get single user
+POST   /users          - Create user
+PUT    /users/<id>     - Update user
+DELETE /users/<id>     - Delete user
 
 ## How to Run
 ```bash
