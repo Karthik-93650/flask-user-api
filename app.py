@@ -6,6 +6,13 @@ app = Flask(__name__)
 users = {}
 user_id_count = 1
 
+#Home route
+@app.route('/')
+def home():
+    return jsonify({
+        "message": "Flask User API is running successfully"
+    })
+
 #Get all users
 @app.route('/users',methods=['GET'])
 def get_users():
